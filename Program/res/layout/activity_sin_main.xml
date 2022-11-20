@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sin_Main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFDEFC"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="560dp"
+            android:layout_height="287dp"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:translationX="110dp"
+            app:videoId="g7ACnx_dFoM"
+            app:autoPlay="false" />
+
+        <Button
+            android:id="@+id/ButtonBack"
+            android:layout_width="121dp"
+            android:layout_height="57dp"
+            android:backgroundTint="#FFDEFC"
+            android:clickable="true"
+            android:fontFamily="sans-serif-light"
+            android:rotation="0"
+            android:text="Назад"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:translationX="40dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="121dp"
+            android:layout_height="57dp"
+            android:backgroundTint="#FFDEFC"
+            android:clickable="true"
+            android:fontFamily="sans-serif-light"
+            android:rotation="0"
+            android:text="Теория"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:translationX="440dp"
+            android:translationY="-55dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="121dp"
+            android:layout_height="57dp"
+            android:backgroundTint="#FFDEFC"
+            android:clickable="true"
+            android:fontFamily="sans-serif-light"
+            android:shadowDx="2"
+            android:shadowRadius="6"
+            android:text="Практика"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:translationX="600dp"
+            android:translationY="-110dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

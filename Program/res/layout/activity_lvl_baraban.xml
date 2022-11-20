@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDEFC"
+    tools:context=".LVL_B">
+
+    <Button
+        android:id="@+id/btn_les_prod2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#FFDEFC"
+        android:fontFamily="sans-serif-light"
+        android:text="Урок 2"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/btn_les_prod1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_les_lub2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="182dp"
+        android:text="Выберите свой уровень:"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="34sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_AB"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#FFDEFC"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <Button
+        android:id="@+id/btn_les1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FFDEFC"
+        android:fontFamily="sans-serif-light"
+        android:text="Урок 1"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/btn_les_prod1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFDEFC"
+        android:fontFamily="sans-serif-light"
+        android:text="Урок 1"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/btn_les_pro1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFDEFC"
+        android:fontFamily="sans-serif-light"
+        android:text="Урок 1"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/btn_les_pro2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#FFDEFC"
+        android:fontFamily="sans-serif-light"
+        android:text="Урок 2"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/btn_les_pro1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_les_prod2" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Продвинутый"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_les_lub1" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Професcионал"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_les_prod1" />
+
+    <Button
+        android:id="@+id/btn_les2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FFDEFC"
+        android:fontFamily="sans-serif-light"
+        android:text="Урок 2"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/btn_les1"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btn_les_lub2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#FFDEFC"
+        android:fontFamily="sans-serif-light"
+        android:text="Урок 2"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/btn_les_lub1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_les2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Любитель"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_les1" />
+
+    <Button
+        android:id="@+id/btn_les_lub1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFDEFC"
+        android:fontFamily="sans-serif-light"
+        android:text="Урок 1"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/btn_les_lub3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#FFDEFC"
+        android:fontFamily="sans-serif-light"
+        android:text="Урок 3"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/btn_les_lub2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_les3" />
+
+    <Button
+        android:id="@+id/btn_les3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FFDEFC"
+        android:fontFamily="sans-serif-light"
+        android:text="Урок 3"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/btn_les2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Новичок"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_AB" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
