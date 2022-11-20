@@ -14,7 +14,7 @@
 ```
 MusicGuide.apk
 ```
-2.По ссылке:
+2.Перейти по ссылке:
 ```
 https://drive.google.com/u/0/uc?id=17AICrLf_L2dKpAGvdvFeB8_WBjcFgca_&export=download
 ```
